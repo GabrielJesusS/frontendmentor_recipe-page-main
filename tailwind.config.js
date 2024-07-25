@@ -3,9 +3,15 @@ module.exports = {
   content: ["./source/**/*.{html,js,ts}"],
   theme: {
     extend: {
+      margin: {
+        content: "7.6875rem",
+      },
+      maxWidth: {
+        "2.5xl": "46rem",
+      },
       fontFamily: {
         outfit: "Outfit, sans",
-        "young-serif": "YoungSerif",
+        "young-serif": "YoungSerif, serif",
       },
       colors: {
         "alt-stone": {
