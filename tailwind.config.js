@@ -8,7 +8,7 @@ module.exports = {
         "young-serif": "YoungSerif",
       },
       colors: {
-        stone: {
+        "alt-stone": {
           100: "hsl(30, 54 %, 90 %)",
           150: "hsl(30, 18 %, 87 %)",
           600: "hsl(30, 10 %, 34 %)",
