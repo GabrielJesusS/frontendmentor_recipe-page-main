@@ -1,0 +1,3 @@
+.link {
+    @apply text-alt-rose-800 hover:text-alt-rose-50 transition-all duration-150 font-semibold;
+}

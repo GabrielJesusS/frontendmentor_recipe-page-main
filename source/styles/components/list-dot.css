@@ -1,0 +1,16 @@
+.list-dot {
+    @apply relative ml-8;
+}
+
+.list-dot::before {
+    content: "";
+    @apply absolute -left-8 top-1/2 -translate-y-1/2 size-1 rounded-full bg-current;
+}
+
+.list-dot::before.list-dot-pink {
+    @apply text-alt-rose-800;
+}
+
+.list-dot::before.list-dot-brown {
+    @apply text-alt-brown;
+}

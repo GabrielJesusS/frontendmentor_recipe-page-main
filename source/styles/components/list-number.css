@@ -1,0 +1,21 @@
+.list-number-container {
+    counter-reset: number-list;
+}
+
+.list-number {
+    counter-increment: number-list;
+    @apply relative ml-8;
+}
+
+.list-number::before {
+    content: counter(number-list) ".";
+    @apply absolute -left-8 top-0 size-1 rounded-full font-semibold;
+}
+
+.list-number::before.list-number-pink {
+    @apply text-alt-rose-800;
+}
+
+.list-number::before.list-number-brown {
+    @apply text-alt-brown;
+}

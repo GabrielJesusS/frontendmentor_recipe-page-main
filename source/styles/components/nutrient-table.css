@@ -1,0 +1,15 @@
+.nutrient-table {
+    @apply w-full text-alt-stone-600;
+}
+
+.nutrient-table tr:first-child {
+    @apply hidden invisible;
+}
+
+.nutrient-table tr:not(:last-child) {
+    @apply border-b border-alt-stone-150;
+}
+
+.nutrient-table td {
+    @apply py-3;
+}

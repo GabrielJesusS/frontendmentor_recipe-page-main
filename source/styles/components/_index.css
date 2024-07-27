@@ -1,1 +1,4 @@
 /* Place your components css here */
+@import url("./list-dot.css");
+@import url("./list-number.css");
+@import url("./nutrient-table.css");

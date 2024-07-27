@@ -1,0 +1,7 @@
+.heading-1 {
+    @apply font-young-serif text-[36px] leading-none md:leading-none md:text-[40px] mt-8 text-alt-stone-900;
+}
+
+.heading-2 {
+    @apply text-alt-brown font-young-serif text-[28px];
+}
