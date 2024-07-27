@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "parcel source/pages/**/*.html",
-    "build": "parcel build --dist-dir ./out/ source/pages/**/*.html",
+    "build": "parcel build --dist-dir ./docs/ source/pages/**/*.html",
     "lint": "biome lint source/scripts/*.ts",
     "lint:fix": "biome lint --write source/scripts/*.ts"
   },
