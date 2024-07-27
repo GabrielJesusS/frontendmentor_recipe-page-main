@@ -20,9 +20,9 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-**-Solution URL: [Add solution URL here](https://your-solution-url.com)**
+-Solution URL: [https://www.frontendmentor.io/solutions/my---recipe-page-solution-YQWs23lypf](https://www.frontendmentor.io/solutions/my---recipe-page-solution-YQWs23lypf)
 
-**-Live Site URL: [Add live site URL here](https://your-live-site-url.com)**
+-Live Site URL: [https://gabrieljesuss.github.io/frontendmentor_recipe-page-main/](https://gabrieljesuss.github.io/frontendmentor_recipe-page-main/)
 
 ### Built with
 
