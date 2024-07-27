@@ -18,8 +18,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ![](./docs/desktop.png)
 
-![](./docs/mobile.png)
-
 ### Links
 
 **-Solution URL: [Add solution URL here](https://your-solution-url.com)**
