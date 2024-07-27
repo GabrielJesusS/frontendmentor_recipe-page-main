@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "parcel source/pages/**/*.html",
-    "build": "parcel build --dist-dir ./docs/ source/pages/**/*.html",
+    "build": "parcel build --dist-dir $npm_package_config_distdir --public-url $npm_package_config_assetsUrl source/pages/**/*.html",
     "lint": "biome lint source/scripts/*.ts",
     "lint:fix": "biome lint --write source/scripts/*.ts"
   },
@@ -14,6 +14,10 @@
   ],
   "author": "Gabriel Jesus",
   "description": "This is a solution to the Recipe Page challenge.",
+  "config": {
+    "distdir": "./docs/",
+    "assetsUrl": "."
+  },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
     "@parcel/plugin": "^2.12.0",
