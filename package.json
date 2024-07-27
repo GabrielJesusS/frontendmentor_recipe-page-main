@@ -1,15 +1,19 @@
 {
-  "name": "parcel-boilerplate",
-  "version": "0.0.1",
+  "name": "frontendmentor_gabriel_jesus",
+  "version": "1.0.0",
   "scripts": {
     "dev": "parcel source/pages/**/*.html",
     "build": "parcel build --dist-dir ./_dist/ source/pages/**/*.html",
     "lint": "biome lint source/scripts/*.ts",
     "lint:fix": "biome lint --write source/scripts/*.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "solutions",
+    "recipe page",
+    "frontendmentor"
+  ],
   "author": "Gabriel Jesus",
-  "description": "An parcel boilerplate",
+  "description": "This is a solution to the Recipe Page challenge.",
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
     "@parcel/plugin": "^2.12.0",
